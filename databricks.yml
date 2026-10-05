@@ -1,0 +1,10 @@
+bundle:
+  name: forecasting-model-dab
+
+include:
+  - resources/*.yml
+
+targets:
+  dev:
+    mode: development
+    default: true
