@@ -1,0 +1,9 @@
+resources:
+  jobs:
+    hello_world_job:
+      name: hello-world-job
+
+      tasks:
+        - task_key: hello_world_task
+          notebook_task:
+            notebook_path: ../src/forecasting_model/notebooks/hello_world.py
